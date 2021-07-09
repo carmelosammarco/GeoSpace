@@ -1,7 +1,7 @@
 # GeoSpace: Anaconda environment for the earth's observations 
 
 <p align="center">
-  <img width="" height="200" src='src/LOGO.jpg'>
+  <img width="" height="200" src='https://github.com/carmelosammarco/GeoSpace/main/src/Logo.jpg'>
 </p>
 
 # Library needed before the main Anaconda installation
