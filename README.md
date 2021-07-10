@@ -26,31 +26,31 @@ You can use homebrew, please check the extensive documentation under "https://br
 
 # Anaconda environment installation
 
-Once you installled CDO, just download the environment file relative to your operating system [HERE](https://anaconda.org/CSammarco/GeoSpace/files) and run:
+Once you installled CDO or not, Please to download the environment file relative to your operating system [HERE](https://anaconda.org/CSammarco/GeoSpace/files) (windows at the moment not supported) and run:
 
 ```
 conda env create -f GeoSpace.yml
 ```
 
-after that just activate the evironment to start to use it with:
+To activate the evironment run:
 
 ```
 conda activate GeoSpace
 ```
 
-One you are done with the creation of the environment, you will  have all the main modules nedded for the earth observation field (the most used at least), plus some  python tools  developed by me that I hope will semplify many of yours operation and procedures (I will describe brefly each one here but I kindly suggest you to to visit this [link](carmelosammarco.com) for more detailed information and more detailed overview). The tools created by me are:
+One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself once you created the GeoSpace environment to be tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures listed below (I will describe brefly each one here but I kindly suggest you to to visit the [GITHUB-LINK] for more detailed information):
 
-**- Tool4NC** --> A python module for the netcdf file manipulation and conversion
+**- Tool4NC** --> A python module for the netcdf file manipulation and conversions. [GITHUB-LINK](https://github.com/carmelosammarco/Tool4NC)
 
-**- MerOC**   --> A Python module (with a GUI interface) to download data and manipulate/convert netCDF-files 
+**- MerOC**   --> A Python module (with a GUI interface) to download data and manipulate/convert netCDF-files. [GITHUB-LINK](https://github.com/carmelosammarco/MerOC)
 
-**- ads4MO**  --> A Python module which adds new downloads services to the CMEMS portal (by Copernicus - registration to the portal required to download the data). It is applied mainly to big data requests using just a CLI and the HTTP data requests.
+**- ads4MO**  --> A Python module which adds new downloads services to the CMEMS portal (by Copernicus - registration to the portal required to download the data). It is applied mainly to big data requests using just a CLI and the HTTP data requests. [GITHUB-LINK](https://github.com/carmelosammarco/ads4MO)
 
-**- FTPsubsetMO** --> Python module to download file from the CMEMS FTP servers (by Copernicus - registration to the portal required to download the data) and automatically subset them using many decisional criteria. It is applied mainly to big data requests of product with an elevated number of data requests and where then the HTTP protocol fail. It has a very intuitive GUI interface. 
+**- FTPsubsetMO** --> Python module to download file from the CMEMS FTP servers (by Copernicus - registration to the portal required to download the data) and automatically subset them using many decisional criteria. It is applied mainly to big data requests of product with an elevated number of data requests and where then the HTTP protocol fail. It has a very intuitive GUI interface. [GITHUB-LINK](https://github.com/carmelosammarco/FTPsubsetMO)
 
-**- GPSconverter** --> Python application to manipulate & view/plot GPS data.
+**- GPSconverter** --> Python application to manipulate & view/plot GPS data. [GITHUB-LINK](https://github.com/carmelosammarco/GPSconverter)
 
-**Periodically I suggest you to run  the following command, inside the GeoSpace environment, to have always the last version avaiable of modules and tools:**
+**Periodically I suggest you to run  the following command, inside the GeoSpace environment, to have always the last version avaiable of modules and tools described above:**
 
 ```
 conda update --all
@@ -58,8 +58,10 @@ conda update --all
 
 # Disclaimer:
 
-The original tools included are result of personal intellectual work and as such I will not be held responsible for any use you make of it, nor for the results and conclusions you may find using it. Also Although I have cross-checked the whole code, I cannot warranty it is exempt of bugs. 
+The original tools included are result of personal intellectual work and development, so as such I will not be held responsible for any use you make of it, nor for the results and conclusions you may find using them. Also Although I have cross-checked the whole code, I cannot warranty it is exempt of bugs. 
 
-Please also to remember to cite them  if they help for research or jobs activities. Feedbacks ara also well accepted.
+Please also to remember to cite them  if they help for research or jobs activities. 
+
+Feedbacks ara also well accepted!
 
 Enjoy! :)
