@@ -42,6 +42,22 @@ To activate the evironment run:
 conda activate GeoSpace
 ```
 
+**I did not include the file for the Window OS because at the moment i did not find a user friendly recipie.However, If you want to have a try please to do as follow (It is just a workaround and not sure if working with all of you):**
+
+```
+conda create --name GeoSpace  python=3.8
+conda activate GeoSpace
+conda install -c conda-forge gmt 
+```
+
+After that follow the instructon about the installation in windows of the [MerOC python package](https://github.com/carmelosammarco/MerOC). Once done with it please to run:
+
+```
+pip install tool4NC MerOC FTPsubsetMO ads4MO GPSconverter
+```
+
+At this point your environment should be functional an ready!
+
 One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself once you created the GeoSpace environment to be tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information):
 
 **- Tool4NC** : A python module for the netcdf file manipulation and conversions.[LINK](https://github.com/carmelosammarco/Tool4NC)
