@@ -6,7 +6,7 @@
 
 # Library needed before the main Anaconda installation
 
-The environment and especially the tools described below to be fully fuctional (few fuctions depends on it) require the installation of the [CDO](https://code.mpimet.mpg.de/projects/cdo/) (Climate Data Operators) library which can be installed with the following instructons:
+The GeoSpace environment and especially the some tools described below to be fully fuctional require the installation of the [CDO library](https://code.mpimet.mpg.de/projects/cdo/) (Climate Data Operators) which can be installed with the instructons given below (few fuctions depends on it and to be more precise concerning the netcdf4 processing as splitting/merging, but overall it is not strictly necessary because these opration can be done also in pure python code. I just find this library very intuitive and asy to use and when posible I will create my own pythom module to archive the same results)
 
 **- For MacOS:**
 
@@ -26,11 +26,11 @@ You can use homebrew, please check the extensive documentation under "https://br
 
   **- For Window:**
 
-  Work in progress.. Not very user friendly I need to say! Working out an easy and fast solution!
+  Install CDO is not very user friendly.. from the ufficial project [WEB-PAGE](https://code.mpimet.mpg.de/projects/cdo/wiki/Win32) you can retrive more info.  
 
 # Anaconda environment installation
 
-Once you installled CDO or not, Please to download the environment.yml file relative to your operating system [HERE](https://anaconda.org/CSammarco/GeoSpace/files) called "GeoSpace.yml" (as said Window at the moment not avaiable) and run:
+Once you installled CDO or not, Please to download the environment.yml file relative to your operating system [HERE](https://anaconda.org/CSammarco/GeoSpace/files) called "GeoSpace.yml" and run:
 
 ```
 conda env create -f GeoSpace.yml
