@@ -6,7 +6,7 @@
 
 # Library needed before the main Anaconda installation
 
-The GeoSpace environment and especially some tool's functioalities require the installation of the [CDO library](https://code.mpimet.mpg.de/projects/cdo/) (Climate Data Operators) which can be installed with the instructons given below. Overall it is not strictly necessary because the opration involved (to be more precise concerning the netcdf4 data splitting/merging and grib conversion). I just decide to add such library because I find it very intuitive and easy to use. Anyway,I am planning to create my own pythom module to archive the same results of the CDO library some time soon)
+The GeoSpace environment and especially some tool's functionalities require the installation of the [CDO library](https://code.mpimet.mpg.de/projects/cdo/) (Climate Data Operators) which can be installed with the instructons given below. Overall it is not strictly necessary because the opration involved (to be more precise concerning the netcdf4 data splitting/merging and grib conversion). I just decide to add such library because I find it very intuitive and easy to use. Anyway,I am planning to create my own pythom module to archive the same results of the CDO library some time soon)
 
 **- For MacOS:**
 
