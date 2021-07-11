@@ -60,15 +60,15 @@ At this point your environment should be functional and ready!
 
 One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself once you created the GeoSpace environment to be tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information):
 
-**- Tool4NC** : A python module for the netcdf file manipulation and conversions.[LINK](https://github.com/carmelosammarco/Tool4NC)
+**- Tool4NC** : A python module for the netcdf file manipulation and conversions. [[LINK](https://github.com/carmelosammarco/Tool4NC)]
 
-**- MerOC** : A Python module (with a GUI interface) to download data and manipulate/convert netCDF-files.[LINK](https://github.com/carmelosammarco/MerOC)
+**- MerOC** : A Python module (with a GUI interface) to download data and manipulate/convert netCDF-files. [[LINK](https://github.com/carmelosammarco/MerOC)]
 
-**- ads4MO** : A Python module which adds new downloads services to the CMEMS portal (by Copernicus - registration to the portal required to download the data). It is applied mainly to big data requests using just a CLI and the HTTP data requests.[LINK](https://github.com/carmelosammarco/ads4MO)
+**- ads4MO** : A Python module which adds new downloads services to the CMEMS portal (by Copernicus - registration to the portal required to download the data). It is applied mainly to big data requests using just a CLI and the HTTP data requests. [[LINK](https://github.com/carmelosammarco/ads4MO)]
 
-**- FTPsubsetMO** : Python module to download file from the CMEMS FTP servers (by Copernicus - registration to the portal required to download the data) and automatically subset them using many decisional criteria. It is applied mainly to big data requests of product with an elevated number of data requests and where then the HTTP protocol fail. It has a very intuitive GUI interface.[LINK](https://github.com/carmelosammarco/FTPsubsetMO)
+**- FTPsubsetMO** : Python module to download file from the CMEMS FTP servers (by Copernicus - registration to the portal required to download the data) and automatically subset them using many decisional criteria. It is applied mainly to big data requests of product with an elevated number of data requests and where then the HTTP protocol fail. It has a very intuitive GUI interface. [[LINK](https://github.com/carmelosammarco/FTPsubsetMO)]
 
-**- GPSconverter** : Python application to manipulate & view/plot GPS data.[LINK](https://github.com/carmelosammarco/GPSconverter)
+**- GPSconverter** : Python application to manipulate & view/plot GPS data. [[LINK](https://github.com/carmelosammarco/GPSconverter)]
 
 **Periodically I suggest you to run  the following command, inside the GeoSpace environment, to have always the last version avaiable of modules and tools described above:**
 
