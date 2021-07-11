@@ -42,7 +42,7 @@ To activate the evironment run:
 conda activate GeoSpace
 ```
 
-**I did not include the file for the Window OS because at the moment i did not find a user friendly recipie.However, If you want to have a try please to do as follow (It is just a workaround and not sure if working with all of you):**
+**I did not include the file for the Window OS because at the moment i did not find a user friendly recipe. However, If you want to have a try please to do as follow (It is just a workaround and not sure if working with all of you):**
 
 ```
 conda create --name GeoSpace  python=3.8
