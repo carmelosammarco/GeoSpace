@@ -58,7 +58,7 @@ pip install tool4NC MerOC FTPsubsetMO ads4MO GPSconverter
 
 At this point your environment should be functional and ready!
 
-One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself to make it more tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information):
+One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself to make it more tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures. The Python tools are listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information or if you are just inteested in one specifically. If it is the latte case I suggest then to install the single tool rather the full environment):
 
 **- Tool4NC** : A python module for the netcdf file manipulation and conversions. [[LINK](https://github.com/carmelosammarco/Tool4NC)]
 
