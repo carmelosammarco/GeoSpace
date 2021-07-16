@@ -78,10 +78,10 @@ conda update --all
 
 # Disclaimer:
 
-My developed tools included in this environment and listed above are result of personal intellectual work and development, so as such I will not be held responsible for any use you make of it, nor for the results and conclusions you may find using them. Also Although I have cross-checked the whole code, I cannot warranty it is exempt of bugs. 
+My tools included in this environment and listed above are result of personal intellectual work and development, so as such I will not be held responsible for any use you make of it, nor for the results and conclusions you may find using them. Also Although I have cross-checked the whole code, I cannot warranty it is exempt of bugs. 
 
-Please also to remember to cite them  if they help for research or jobs activities and let me know!
+Please also to remember to cite them  if they help your research or jobs activities and let me know of course!
 
-Feedbacks ara well accepted of course
+Feedbacks ara well accepted.
 
 Enjoy! :)
