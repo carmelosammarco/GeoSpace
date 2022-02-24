@@ -53,7 +53,7 @@ conda install -c conda-forge gmt
 After that follow the instructon about the installation in windows of the [MerOC python package](https://github.com/carmelosammarco/MerOC). Once done with it please to run:
 
 ```
-pip install tool4NC MerOC FTPsubsetMO ads4MO GPSconverter
+pip install tool4NC MerOC FTPsubsetMO ads4MO CADS GPSconverter
 ```
 
 At this point your environment should be functional and ready!
