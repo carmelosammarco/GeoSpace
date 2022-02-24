@@ -42,23 +42,23 @@ To activate the evironment run:
 conda activate GeoSpace
 ```
 
-**I did not include the file for the Window OS because at the moment i did not find a user friendly recipe. However, If you want to have a try please to do as follow (It is just a workaround and not sure if working with all of you):**
+**If you have trouble with the environment file as above then please try to do as follow:**
 
 ```
 conda create --name GeoSpace  python=3.8
 conda activate GeoSpace
-conda install -c conda-forge gmt 
+conda install -c conda-forge gmt geopandas
 ```
 
-After that follow the instructon about the installation in windows of the [MerOC python package](https://github.com/carmelosammarco/MerOC). Once done with it please to run:
+Once done with it please to run:
 
 ```
 pip install tool4NC MerOC FTPsubsetMO ads4MO CADS GPSconverter
 ```
 
-At this point your environment should be functional and ready!
+At this point your environment should be functional and ready with my GeoSpatial tools! (if you want to have just few or none of them just do not run the pip command).
 
-One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself to make it more tailored to your needs), plus more important some  python tools  developed by me that I hope will semplify many of yours operations and procedures. The Python tools are listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information or if you are just inteested in one specifically. If it is the latte case I suggest then to install the single tool rather the full environment):
+One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself to make it more tailored to your needs), plus, if it is your decision, some pip installed python tools developed by me that I hope will semplify many of yours operations and procedures, listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information or if you are just inteested in one specifically. If it is the latte case I suggest then to install the single tool rather the full environment):
 
 **- Tool4NC** : A python module for the netcdf file manipulation and conversions. [[LINK](https://github.com/carmelosammarco/Tool4NC)]
 
@@ -69,6 +69,8 @@ One you are done with the creation of the environment, you will  have all the ma
 **- FTPsubsetMO** : Python module to download file from the CMEMS FTP servers (by Copernicus - free registration to the portal required to download the data) and automatically subset them using many decisional criteria. It is applied mainly to big data requests of product with an elevated number of data requests and where then the HTTP protocol fail. It has a very intuitive GUI interface. [[LINK](https://github.com/carmelosammarco/FTPsubsetMO)]
 
 **- GPSconverter** : Python application to manipulate & view/plot GPS data. [[LINK](https://github.com/carmelosammarco/GPSconverter)]
+
+**-CADS** : Python module which merge both MerOC, ads4MO and FTPsubsetMO functionalities. [[LINK](https://github.com/carmelosammarco/CADS)]
 
 **Periodically I suggest you to run  the following command, inside the GeoSpace environment, to have always the last version avaiable of modules and tools described above:**
 
