@@ -21,7 +21,9 @@ You can use homebrew, please check the extensive documentation under "https://br
   You can use the native package manager of Linux Ubuntu as follow:
 
   ```
+  sudo apt-get update
   sudo apt-get install cdo
+  sudo apt-get install gmt
   ```
 
   **- For Window:**
