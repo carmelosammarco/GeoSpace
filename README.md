@@ -56,7 +56,7 @@ Once done with it please to run:
 pip install tool4NC MerOC FTPsubsetMO ads4MO CADS GPSconverter
 ```
 
-At this point your environment should be functional and ready with my GeoSpatial tools! (if you want to have just few or none of them just do not run the pip command).
+At this point your environment should be functional and ready with my GeoSpatial tools! (if you want to have just few or none of them just modify the last pip command).
 
 One you are done with the creation of the environment, you will  have all the main python modules used for the earth observation (the most used at least, but free to add more yourself to make it more tailored to your needs), plus, if it is your decision, some pip installed python tools developed by me that I hope will semplify many of yours operations and procedures, listed below (I will describe brefly each one here but I kindly suggest you to to visit the [LINK] for more detailed information or if you are just inteested in one specifically. If it is the latte case I suggest then to install the single tool rather the full environment):
 
