@@ -14,6 +14,7 @@ You can use homebrew, please check the extensive documentation under "https://br
 
   ```
   brew install cdo
+  brew install gmt
   ```
 
   **- For Linux:**
